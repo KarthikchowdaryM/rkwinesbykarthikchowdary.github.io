@@ -106,11 +106,7 @@ p {
   text-align: center;
   padding-top: 100px;
 }
-.smooth-image {
-    border-radius: 15px; /* Smooth edges */
-    border: 10px solid brown; /* Thick brown border */
-    width: 100%; /* Adjust as needed */
-    height: auto;
+
 }
 
 .hero h2 {
@@ -194,4 +190,20 @@ p {
   padding: 20px;
   background: #663300;
   color: #fff;
+}
+.smooth-image {
+    border-radius: 15px; /* Smooth edges */
+    border: 10px solid brown; /* Thick brown border */
+    width: 100%; /* Responsive width */
+    max-width: 400px; /* Max width to control size on larger screens */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin: 0 auto; /* Center the image */
+}
+
+/* Optional: Adjust image size for smaller screens */
+@media (max-width: 600px) {
+    .smooth-image {
+        max-width: 300px; /* Smaller size on mobile */
+    }
 }
