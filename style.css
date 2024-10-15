@@ -106,6 +106,12 @@ p {
   text-align: center;
   padding-top: 100px;
 }
+.smooth-image {
+    border-radius: 15px; /* Smooth edges */
+    border: 10px solid brown; /* Thick brown border */
+    width: 100%; /* Adjust as needed */
+    height: auto;
+}
 
 .hero h2 {
   font-size: 3rem;
