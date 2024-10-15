@@ -191,11 +191,3 @@ p {
   background: #663300;
   color: #fff;
 }
-.smooth-image {
-    border-radius: 15px; /* Smooth edges */
-    border: 10px solid brown; /* Thick brown border */
-   width: 100%;
-  height: auto;
-  display: none;
-}
-
